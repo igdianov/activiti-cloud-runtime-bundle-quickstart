@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.activiti.cloud.quickstarts</groupId>
-	<artifactId>activiti-cloud-runtime-bundle</artifactId>
+	<groupId>org.activiti.cloud</groupId>
+	<artifactId>REPLACE_ME_APP_NAME</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>activiti-cloud-runtime-bundle</name>
-	<description>Activiti Cloud :: Runtime Bundle</description>
+	<name>REPLACE_ME_APP_NAME</name>
+	<description>Activiti Cloud :: Runtime Bundle (REPLACE_ME_APP_NAME)</description>
 
 
 	<properties>
