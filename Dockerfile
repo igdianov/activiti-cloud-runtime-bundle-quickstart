@@ -1,5 +1,4 @@
 FROM openjdk:8-jdk-slim
-RUN apk --update add fontconfig ttf-dejavu
 ENV PORT 8080
 EXPOSE 8080
 COPY target/*.jar /opt/app.jar
