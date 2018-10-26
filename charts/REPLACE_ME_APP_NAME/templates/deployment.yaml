@@ -75,14 +75,7 @@ spec:
         - name: SPRING_JPA_DATABASE_PLATFORM
           value: {{ default "org.hibernate.dialect.PostgreSQLDialect" .Values.db.platform }}
 {{- end }}
-        - name: EUREKA_CLIENT_ENABLED
-          value: "false"
-        - name: ACTIVITI_CLOUD_SERVICES_METADATA_EUREKA_STATIC_ENABLED
-          value: "false"
-        - name: ACTIVITI_CLOUD_SERVICES_METADATA_EUREKA_DYNAMIC_ENABLED
-          value: "false"
-        - name: ACT_CLOUD_CONFIG_SERVER_ENABLED
-          value: "false"
+
 {{- with .Values.extraEnv }}
 {{ tpl . $ | indent 8 }}
 {{- end }}

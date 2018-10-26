@@ -11,5 +11,6 @@ public class RuntimeBundleApplication {
     public static void main(String[] args) {
         SpringApplication.run(RuntimeBundleApplication.class,
                               args);
+
     }
 }
