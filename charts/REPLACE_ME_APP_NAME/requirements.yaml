@@ -1,6 +1,6 @@
 dependencies:
-- alias: activitipostgresql
+- alias: REPLACE_ME_APP_NAME-postgresql
   name: postgresql
   repository: https://kubernetes-charts.storage.googleapis.com
   version: 0.11.0
-  condition: application.runtime-bundle.db.deployPostgres,runtime-bundle.db.deployPostgres,db.deployPostgres
+  condition: application.REPLACE_ME_APP_NAME.db.deployPostgres,REPLACE_ME_APP_NAME.db.deployPostgres
