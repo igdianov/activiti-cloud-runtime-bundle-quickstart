@@ -71,7 +71,7 @@ resources:
   requests:
     cpu: 400m
     memory: 1024Mi
-probePath: '{{ include "common.ingress-path" . }}/actuator/health'
+probePath: /actuator/health
 livenessProbe:
   initialDelaySeconds: 140
   periodSeconds: 15
